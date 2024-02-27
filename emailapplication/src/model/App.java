@@ -1,5 +1,9 @@
-public class App {
+package model; //Na aula o package é emailapp
+
+public class App { // Na aula Class é EmailApp
+
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Email em1 = new Email("Carla", "Braga");
+
     }
 }
